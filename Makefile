@@ -3,9 +3,6 @@ SRC_DIR = ./src/
 SDL_FLAGS = `sdl2-config --cflags --libs` -lSDL2 -lSDL2_image -lSDL2_mixer
 INCLUDE_DIR = ./include/
 
-dependencies:
-	sudo apt install libsdl2-2.0-0 libsdl2-image-2.0-0 libsdl2-mixer-2.0-0
-
 run: main.o gameCore.o Object.o level.o
 	gcc -o $(BUILD_DIR)run $(BUILD_DIR)main.o $(BUILD_DIR)gameCore.o $(BUILD_DIR)Object.o $(BUILD_DIR)level.o $(SDL_FLAGS)
 main.o:
