@@ -2,6 +2,10 @@
 
 --- Written using gcc C compiler in Linux System. (Ubuntu)
 --- Dependencies : SDL2 Library (SDL2 Video , SDL2 Audio , SDL2 Mixer)
+    
+    1) libsdl2-2.0-0
+    2) libsdl2-image-2.0-0
+    3) libsdl2-mixer-2.0-0
 
 Run Instructions:
     1. Go to FINAL directory and run the executable file. (Linux Users)
