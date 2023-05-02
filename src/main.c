@@ -25,7 +25,7 @@ void CleanUp(Level);
 
 int main()
 {
-	window = create_window("Undelivered",WINDOW_WIDTH,WINDOW_HEIGHT);
+	window = create_window("The Last Battery",WINDOW_WIDTH,WINDOW_HEIGHT);
 	renderer = SDL_CreateRenderer(window,-1,SDL_RENDERER_ACCELERATED);
 
 	Clock clock = malloc(sizeof(struct clock));
