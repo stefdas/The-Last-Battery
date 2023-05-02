@@ -1,0 +1,25 @@
+========== THE LAST BATTERY ==========
+
+--- Written using gcc C compiler in Linux System. (Ubuntu)
+--- Dependencies : SDL2 Library (SDL2 Video , SDL2 Audio , SDL2 Mixer)
+
+Run Instructions:
+    1. Go to FINAL directory and run the executable file. (Linux Users)
+
+Build Instructions:
+
+    1. Download and install SDL2 in your system.
+    2. Navigate to game directory.
+    3. Run make file using "make" command.
+    4. Game will be in the "build" directory.
+
+
+Notes:
+    The directory FINAL contains the executable ready to run in your system.
+    Do not maximize window. It is not programmed to rescale the window context.
+
+Bugs:
+    If the player can't move , restart the game.
+
+
+Thank you for reading this !
