@@ -16,3 +16,9 @@ Object.o:
 
 level.o:
 	gcc -c $(SRC_DIR)Level.c -o $(BUILD_DIR)level.o -I$(INCLUDE_DIR)
+
+install:
+	sudo apt install -y libsdl2-image-dev libsdl2-mixer-dev
+
+uninstall:
+	sudo apt remove -y libsdl2-image-dev libsdl2-mixer-dev libsdl2-2.0-0 libsdl2-dev libsdl2-image-2.0-0 libsdl2-mixer-2.0-0
